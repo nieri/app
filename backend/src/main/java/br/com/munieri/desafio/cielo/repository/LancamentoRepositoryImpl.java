@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Repository
 public class LancamentoRepositoryImpl implements LancamentoRepository {
 
-    final String URI = "http://localhost:3001/lancamentos";
+    final String URI = "http://legado-rest-api:3001/lancamentos";
 
     @Override
     public LancamentoEtity buscarLancamento() {
